@@ -47,8 +47,5 @@ files listed below. Then follow the instructions in step 2 above.
    gcc main.c bit_manipulation.c arithmetic_encoder.c   ...
             arithmetic_decoder.c
 ---------------------------------------------------------------
-If all goes south, please contact me at zach.swanson@doane.edu
-
-If I've really screwed up and you're seething with frustration,
-then feel free to call me and really rip in: 402.720.9752
+If all goes south, please contact me.
 
