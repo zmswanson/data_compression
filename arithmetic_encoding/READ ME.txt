@@ -1,0 +1,54 @@
+Swanson Arithmetic READ ME
+==========================
+If you are reading this, then Zach Swanson has FINALLY gotten
+off his lazy bum and finished a data compression project.
+So now the question is, does the Swanson Arithmetic encoder
+and decoder actually work? Let's see.
+--------------------------
+This program was coded in C and compiled on a Windows
+machine and is intended to be ran from a command prompt.
+
+The program was structured to take a file of any type and
+sequentially run the arithmetic encoder and decoder. The 
+program outputs two new files: a compressed file and a
+decompressed file. These files are provided to ensure the
+user that the encoder and decoder are doing what they are
+intended and required to do. The program will also provide
+the user with reports on compression and decompression 
+performance. I.E., how much was the file compressed and how
+well does the decompressed file match the original.
+-----------------------------------------------------------
+If you have the capability to run '.exe' files, then 
+follow these steps to run the program.
+
+1. From a command prompt, go to the directory containing
+   "ArithComp.exe"
+
+2. Type the following: "ArithComp.exe arg1 arg2 arg3"
+   where "arg1" is the name of the file to be compressed,
+   "arg2" is a name, any name, to store the compressed file,
+   and "arg3" is the name of a file to hold the decompressed
+   file. For "arg3" be sure to use a different file name than
+   "arg1" but use the same file type.
+      e.g. - ArithComp.exe  original.txt  comp.z  dcmp.txt
+
+   Note: It is easiest to place the file to be compressed in the
+      same directory as ArithComp.exe. If not, be sure to specify
+      the path to the file to be compressed in the command line.
+
+3. If all goes well, the results mentioned above should be
+   experienced and I can rest easily with more thing checked
+   off the ol' to-do list.
+---------------------------------------------------------------
+If you do not have the capability to run '.exe' files but do
+have a C compliler on your machine, please compile the four
+files listed below. Then follow the instructions in step 2 above.
+
+   gcc main.c bit_manipulation.c arithmetic_encoder.c   ...
+            arithmetic_decoder.c
+---------------------------------------------------------------
+If all goes south, please contact me at zach.swanson@doane.edu
+
+If I've really screwed up and you're seething with frustration,
+then feel free to call me and really rip in: 402.720.9752
+
